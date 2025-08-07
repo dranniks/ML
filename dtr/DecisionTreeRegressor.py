@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
 # Загрузка данных
-home_data = pd.read_csv('melb_data.csv')
+home_data = pd.read_csv('D:\Projects\AI\ML\dtr\melb_data.csv')
 
 # Целевая переменная
 y = home_data.Price
